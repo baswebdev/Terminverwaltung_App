@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Terminverwaltungs-App</h1>
+    <div id="app">
+        <div class="event-form">
+            <h2>Neuer Termin</h2>
+            <input type="text" id="eventName" placeholder="Terminname">
+            <input type="date" id="eventDate">
+            <input type="time" id="eventStartTime">
+            <input type="time" id="eventEndTime">
+            <button onclick="addEvent()">Hinzufügen</button>
+        </div>
+        <div class="event-list">
+            <h2>Termine</h2>
+            <ul id="events">
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
