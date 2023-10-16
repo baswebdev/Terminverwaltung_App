@@ -1,0 +1,44 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.event-form {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #4CAF50;
+}
+
+.event-list {
+    width: 50%;
+    margin: 20px auto;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #4CAF50;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
